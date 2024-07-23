@@ -1,105 +1,80 @@
-# Daily DSA 
+# Python Algorithms and Data Structures
 
+This repository contains a collection of Python scripts implementing various algorithms and solving problems from LeetCode (indicated by `lc` in the filenames). The problems cover a wide range of topics, including dynamic programming, string manipulation, array operations, and more.
 
-This repository contains solutions to various LeetCode problems implemented in Python. Below is a list of the problems tackled each day including a brief description and the corresponding LeetCode problem number.
+## Table of Contents
 
+1. [Array and List Problems](#array-and-list-problems)
+2. [Dynamic Programming](#dynamic-programming)
+3. [String Manipulation](#string-manipulation)
+4. [Mathematical Problems](#mathematical-problems)
+5. [Other Problems](#other-problems)
+6. [Conversion Scripts](#conversion-scripts)
 
-## Problems Solved - Day 1
+## Array and List Problems
 
+- `best_time_to_buy_and_sell_stock.py`: Solution for the "Best Time to Buy and Sell Stock" problem.
+- `binary_search.py`: Implementation of binary search algorithm.
+- `combination_sum.py`: Solution for the "Combination Sum" problem.
+- `container_with_max_water_leetcode_11.py`: Solution for the "Container With Most Water" problem (lc).
+- `contains_duplicate_leetcode_217.py`: Solution for the "Contains Duplicate" problem (lc).
+- `longest_consecutive_sequence_leetcode_128.py`: Solution for the "Longest Consecutive Sequence" problem (lc).
+- `merge_sorted_list.py`: Merging two sorted lists.
+- `missing_number_(all).py`: Solutions for finding the missing number in a sequence.
+- `move_zeroes.py`: Solution for the "Move Zeroes" problem.
+- `plus_one.py`: Solution for the "Plus One" problem.
+- `product_of_array_except_self_leetcode_238.py`: Solution for the "Product of Array Except Self" problem (lc).
+- `rotate_array.py`: Solution for the "Rotate Array" problem.
+- `search_rotated_sorted_array_leetcode_33.py`: Solution for the "Search in Rotated Sorted Array" problem (lc).
+- `three_sum_leetcode_15.py`: Solution for the "3Sum" problem (lc).
+- `top_k_frequent_elements_leetcode_347.py`: Solution for the "Top K Frequent Elements" problem (lc).
+- `two_sum_leetcode_1.py`: Solution for the "Two Sum" problem (lc).
 
-1. **Container with Most Water (LC 11)**
-   - **Description**: Given an array of heights representing vertical lines, find two lines that together with the x-axis form a container that holds the most water.
-   - **Solution**: Utilized a two-pointer approach to maximize the area between lines.
+## Dynamic Programming
 
+- `fibonacci_series.py`: Generating Fibonacci series.
+- `longest_common_subsequence.py`: Finding the longest common subsequence.
+- `longest_increasing_sequence.py`: Finding the longest increasing subsequence.
+- `longest_palindromic_subsequence.py`: Finding the longest palindromic subsequence.
+- `longest_substring_without_repeat_leetcode_3.py`: Solution for the "Longest Substring Without Repeating Characters" problem (lc).
+- `min_moves_to_make_all_number_equal_array.py`: Minimum moves to make all numbers equal in an array.
 
-2. **Contains Duplicate (LC 217)**
-   - **Description**: Given an integer array, determine if any value appears at least twice.
-   - **Solution**: Employed a set to track duplicates efficiently.
+## String Manipulation
 
+- `find_non_repeat.py`: Finding the first non-repeating character in a string.
+- `generate_paranthesis.py`: Generating valid parentheses combinations.
+- `group_anagram_leetcode_49.py`: Solution for the "Group Anagrams" problem (lc).
+- `integer_to_roman.py`: Converting an integer to a Roman numeral.
+- `isomorphic_strings.py`: Checking if two strings are isomorphic.
+- `longest_palindromic_subsequence.py`: Finding the longest palindromic subsequence.
+- `LRU_cache.py`: Implementation of an LRU Cache.
+- `pascal_to_snake.py`: Converting PascalCase to snake_case.
+- `permutations_possible.py`: Checking if permutations are possible.
+- `power_set.py`: Generating the power set.
+- `power_sum.py`: Calculating the power sum.
+- `roman_to_integer.py`: Converting a Roman numeral to an integer.
+- `snake_to_pascal.py`: Converting snake_case to PascalCase.
+- `valid_anagram_leetcode_242.py`: Solution for the "Valid Anagram" problem (lc).
+- `valid_palindrome_leetcode_125.py`: Solution for the "Valid Palindrome" problem (lc).
+- `valid_paranthesis_leetcode_20.py`: Solution for the "Valid Parentheses" problem (lc).
 
-3. **Group Anagrams (LC 49)**
-   - **Description**: Given an array of strings, group the anagrams together.
-   - **Solution**: Used a dictionary to categorize strings by their sorted character sequences.
+## Mathematical Problems
 
+- `find_factors.py`: Finding the factors of a given number.
+- `power_set.py`: Generating the power set.
 
-4. **Longest Consecutive Sequence (LC 128)**
-   - **Description**: Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
-   - **Solution**: Implemented a set for efficient lookup and tracking of sequences.
+## Other Problems
 
+- `revision_1.py`: Miscellaneous revision problems.
 
-5. **Product of Array Except Self (LC 238)**
-   - **Description**: Given an array, return an array output such that output[i] is equal to the product of all the elements of the input array except nums[i].
-   - **Solution**: Used prefix and suffix product arrays to achieve the solution without division.
+## Conversion Scripts
 
+- `pascal_to_snake.py`: Converting PascalCase to snake_case.
+- `snake_to_pascal.py`: Converting snake_case to PascalCase.
 
-6. **Three Sum (LC 15)**
-   - **Description**: Given an integer array, find all the triplets that sum to zero.
-   - **Solution**: Applied a two-pointer technique after sorting the array to find triplets efficiently.
+## Usage
 
+Each script can be run individually. For example, to run the `two_sum_leetcode_1.py` script, use the following command:
 
-7. **Top K Frequent Elements (LC 347)**
-   - **Description**: Given a non-empty array of integers, return the k most frequent elements.
-   - **Solution**: Utilized a frequency map and bucket sort to identify the top k elements.
-
-
-8. **Two Sum (LC 1)**
-   - **Description**: Given an array of integers, return indices of the two numbers such that they add up to a specific target.
-   - **Solution**: Used a hashmap to store and lookup complement values efficiently.
-
-
-9. **Valid Anagram (LC 242)**
-   - **Description**: Given two strings, determine if they are anagrams of each other.
-   - **Solution**: Counted character frequencies using a dictionary for comparison.
-
-
-10. **Valid Palindrome (LC 125)**
-    - **Description**: Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring case.
-    - **Solution**: Implemented two-pointer technique to compare characters from both ends.
-
-
-## Getting Started
-
-
-### Prerequisites
-
-
-- Python 3.x
-- Basic understanding of data structures and algorithms
-
-
-### Running the Code
-
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/agnee008/daily_dsa_python.git
-   cd daily_dsa_python
-   ```
-
-
-2. Run the desired Python file:
-   ```bash
-   python <filename>.py
-   ```
-
-
-### Example Usage
-
-
-```python
-if __name__ == "__main__":
-    nums = [1, 2, 3, 4]
-    print(twoSum(nums, 5))  # Example usage for Two Sum
-```
-
-
-## Contributing
-
-
-If you have any improvements or suggestions for the code, feel free to open an issue or submit a pull request.
-
-
-## License
-
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```bash
+python two_sum_leetcode_1.py
