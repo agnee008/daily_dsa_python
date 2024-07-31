@@ -9,3 +9,4 @@ def replace0with5(n: int) -> int:
 # Example usage
 print(replace0with5(102))  # Output: 152
 print(replace0with5(1020))  # Output: 1525
+

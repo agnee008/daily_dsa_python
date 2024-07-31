@@ -15,9 +15,16 @@ This repository contains a collection of Python scripts implementing various alg
 
 - `best_time_to_buy_and_sell_stock.py`: Solution for the "Best Time to Buy and Sell Stock" problem (lc). Uses dynamic programming to track the minimum price and maximum profit.
 - `binary_search.py`: Implementation of the binary search algorithm. Efficiently searches for an element in a sorted array.
+- `candies.py`: Distributing candies to children. Solves the problem using a greedy approach.
+- `coin_change.py`: Solution for the "Coin Change" problem (lc). Uses dynamic programming to find the minimum number of coins needed to make up a given amount.
 - `combination_sum.py`: Solution for the "Combination Sum" problem (lc). Uses backtracking to find all unique combinations that add up to a target sum.
 - `container_with_max_water_leetcode_11.py`: Solution for the "Container With Most Water" problem (lc). Uses a two-pointer technique to find the maximum area.
 - `contains_duplicate_leetcode_217.py`: Solution for the "Contains Duplicate" problem (lc). Uses a hash set to check for duplicates in linear time.
+- `convert_array_to_zigzag.py`: Converting array to zigzag fashion. Uses a single scan to swap elements and achieve the zigzag pattern.
+- `daily_temperatures.py`: Solving the "Daily Temperatures" problem (lc). Uses a stack to find the number of days until a warmer temperature.
+- `hopping_game.py`: Solving the "Hopping Game" problem. Uses dynamic programming to determine if you can reach the last index.
+- `intersection_of_two_arrays.py`: Finding the intersection of two arrays (lc). Uses hash sets to find common elements.
+- `jump_game.py`: Solution for the "Jump Game" problem (lc). Uses greedy or dynamic programming to determine if you can reach the last index.
 - `longest_consecutive_sequence_leetcode_128.py`: Solution for the "Longest Consecutive Sequence" problem (lc). Uses a hash set to find the longest sequence in linear time.
 - `merge_sorted_list.py`: Merging two sorted lists. Uses two pointers to merge the lists in linear time.
 - `missing_number_(all).py`: Solutions for finding the missing number in a sequence. Implements various methods including sum formula and XOR.
@@ -35,18 +42,20 @@ This repository contains a collection of Python scripts implementing various alg
 - `maximum_subarray.py`: Finding the maximum subarray (lc). Uses Kadane's algorithm to find the maximum sum subarray in linear time.
 - `merge_intervals.py`: Merging intervals (lc). Sorts intervals and then merges overlapping intervals.
 - `replace_every_element_with_greatest_element_right_side.py`: Replace every element with the greatest element on its right side. Scans the array from right to left to track the greatest element.
-- `replace0_with5.py`: Replace all 0s with 5s. Iterates through the number and replaces each 0 with a 5.
-- `subarray_sum_equals_k.py`: Subarray sum equals k (lc). Uses a hash map to track cumulative sums and their frequencies.
+- `unique_paths.py`: Finding the number of unique paths in a grid (lc). Uses dynamic programming to count paths from the top-left to the bottom-right corner.
 
 ## Dynamic Programming
 
 - `fibonacci_series.py`: Generating Fibonacci series. Uses memoization to store previously computed values.
 - `longest_common_subsequence.py`: Finding the longest common subsequence. Uses a 2D array to store lengths of longest common subsequences of substrings.
+- `longest_commonprefix.py`: Finding the longest common prefix among strings (lc). Uses vertical scanning to find the common prefix.
 - `longest_increasing_sequence.py`: Finding the longest increasing subsequence. Uses dynamic programming with a binary search for efficient calculation.
 - `longest_palindromic_subsequence.py`: Finding the longest palindromic subsequence. Uses a 2D array to store lengths of palindromic subsequences.
 - `longest_substring_without_repeat_leetcode_3.py`: Solution for the "Longest Substring Without Repeating Characters" problem (lc). Uses a sliding window and hash map to track characters and their positions.
 - `min_moves_to_make_all_number_equal_array.py`: Minimum moves to make all numbers equal in an array. Uses the median to calculate the minimum number of moves.
 - `climbing_stairs.py`: Solving the "Climbing Stairs" problem (lc). Uses dynamic programming to count the number of ways to reach the top.
+- `decode_ways.py`: Solving the "Decode Ways" problem (lc). Uses dynamic programming to count the number of ways to decode a string.
+- `hopping_game.py`: Solving the "Hopping Game" problem. Uses dynamic programming to determine if you can reach the last index.
 
 ## String Manipulation
 
@@ -68,8 +77,7 @@ This repository contains a collection of Python scripts implementing various alg
 - `valid_paranthesis_leetcode_20.py`: Solution for the "Valid Parentheses" problem (lc). Uses a stack to ensure that parentheses are balanced.
 - `run_length_encoding.py`: Run-length encoding. Compresses a string by storing the lengths of consecutive character runs.
 - `analyze_user_website_visit_pattern.py`: Analyzing user website visit patterns (lc). Uses a hash map to count and rank patterns of website visits.
-- `convert_array_to_zigzag.py`: Converting array to zigzag fashion. Uses a single scan to swap elements and achieve the zigzag pattern.
-- `count_substrings_start_and_end_with_one.py`: Counting substrings starting and ending with one. Uses a sliding window to count valid substrings.
+- `word_search.py`: Solving the "Word Search" problem (lc). Uses backtracking to find if a word exists in a grid.
 
 ## Mathematical Problems
 
@@ -92,6 +100,10 @@ This repository contains a collection of Python scripts implementing various alg
 - `search_in_row_and_column_sorted_matrix.py`: Searching in a row and column sorted matrix (lc). Uses a binary search-like approach to find an element in the matrix.
 - `search_suggestion_system.py`: Implementing a search suggestion system (lc). Uses a trie or prefix tree to store and retrieve suggestions efficiently.
 - `validate_bst.py`: Validating a binary search tree (lc). Uses in-order traversal to ensure the tree satisfies the BST properties.
+- `VISA_inventory_tracking_system.py`: Tracking inventory for VISA system. Implements tracking features for an inventory system.
+- `VISA_queries_integers.py`: Handling integer queries for VISA system. Solves problems related to integer operations.
+- `VISA_round_trip_calculation.py`: Calculating round trip distances for VISA system. Implements logic for distance calculation.
+- `VISA_total_visits_less_than_target.py`: Finding total visits less than target for VISA system. Implements logic to count visits below a certain threshold.
 
 ## Conversion Scripts
 
